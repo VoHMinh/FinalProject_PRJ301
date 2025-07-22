@@ -1,0 +1,101 @@
+/* cart.css */
+
+/* Container chính cho giỏ hàng */
+.cart-container {
+    width: 95%;
+    margin: 10px auto; /* Giảm khoảng trắng hai bên, canh giữa */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề giỏ hàng */
+.cart-container h2 {
+    text-align: center;
+    color: #1e8449; /* Xanh lá đậm */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Đoạn văn bản trong giỏ hàng */
+.cart-container p {
+    text-align: center;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Bảng hiển thị */
+.cart-container table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp đường viền */
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Đường viền ngoài của bảng */
+}
+
+.cart-container th,
+.cart-container td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Thêm đường phân cách giữa các ô */
+}
+
+/* Header bảng */
+.cart-container th {
+    background-color: #1e8449; /* Xanh lá đậm */
+    color: white;
+    font-weight: bold;
+}
+
+/* Dòng chẵn có màu nền khác */
+.cart-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Ảnh sản phẩm nhỏ hơn */
+.cart-container td img {
+    max-width: 120px; /* Giới hạn chiều rộng ảnh */
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Ảnh canh giữa trong ô */
+}
+
+/* Nút (Xóa, Thanh toán) */
+.cart-container button {
+    background-color: #1e8449; /* Xanh lá đậm */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+}
+
+.cart-container button:hover {
+    background-color: #18663a; /* Xanh lá đậm hơn khi hover */
+    transform: scale(1.05);
+}
+
+/* Căn giữa cột Hành động (giả sử cột 6) */
+.cart-container td:nth-child(6) {
+    text-align: center;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 600px) {
+    .cart-container th, 
+    .cart-container td {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .cart-container td img {
+        max-width: 100px; /* Thu nhỏ hơn nữa trên màn hình hẹp */
+    }
+    .cart-container button {
+        padding: 8px 15px;
+    }
+}

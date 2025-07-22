@@ -1,0 +1,159 @@
+/* product_detail.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.zone-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail-container {
+    text-align: center;
+}
+
+.product-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+    transition: transform 0.3s ease; /* Hiệu ứng khi di chuột */
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Hiệu ứng khi di chuột */
+}
+
+.product-image:hover img {
+    transform: scale(1.05); /* Phóng to hình ảnh khi di chuột */
+}
+
+.product-info {
+    flex: 1;
+    text-align: left;
+}
+
+.product-name {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.brand {
+    font-size: 20px;
+    color: #007bff; /* Màu xanh cho thương hiệu */
+}
+
+.price {
+    font-size: 22px;
+    color: #d9534f; /* Màu đỏ cho giá */
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    color: #555; /* Màu xám cho mô tả */
+}
+
+.warning {
+    font-size: 18px;
+    color: orange; /* Màu cam cho cảnh báo */
+}
+
+.quantity-selector {
+    margin: 20px 0;
+}
+
+.quantity-selector label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.quantity-selector input {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.size-selector {
+    margin: 20px 0;
+}
+
+.size-selector strong {
+    font-size: 18px;
+}
+
+.size-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.size-option {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.size-option.available {
+    background-color: #28a745; /* Màu xanh cho kích thước có sẵn */
+    color: white;
+}
+
+.size-option.unavailable {
+    background-color: #ccc; /* Màu xám cho kích thước không có sẵn */
+    color: #666; /* Màu chữ xám cho kích thước không có sẵn */
+    cursor: not-allowed; /* Không cho phép nhấp chuột */
+}
+
+.size-option:hover {
+    background-color: #218838; /* Hiệu ứng khi di chuột vào kích thước có sẵn */
+}
+
+.add-to-cart {
+    margin-top: 20px;
+} 
+.btn-add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Hiệu ứng khi di chuột */
+}
+
+.btn-add-to-cart:hover {
+    background-color: #218838; /* Màu tối hơn khi di chuột */
+    transform: scale(1.05); /* Phóng to nút khi di chuột */
+}
+
+.btn-add-to-cart:active {
+    transform: scale(0.95); /* Nhấn nút sẽ thu nhỏ */
+}

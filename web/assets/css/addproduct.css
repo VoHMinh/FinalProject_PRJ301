@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h2, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the content zone */
+.container-addproduct {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+.container-addproduct h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Style the form elements */
+.container-addproduct label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style the input fields */
+.container-addproduct input[type="text"],
+.container-addproduct input[type="file"],
+.container-addproduct select,
+.container-addproduct textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+/* Change border color on focus */
+.container-addproduct input[type="text"]:focus,
+.container-addproduct input[type="file"]:focus,
+.container-addproduct select:focus,
+.container-addproduct textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Style the textarea */
+.container-addproduct textarea {
+    height: 100px;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style the submit button */
+.container-addproduct button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+.container-addproduct button:hover {
+    background-color: #45a049;
+}
+
+/* Style for error and success messages */
+.admin-error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.admin-msg {
+    color: green;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container-addproduct {
+        padding: 15px;
+    }
+
+    .container-addproduct h2 {
+        font-size: 24px;
+    }
+
+    .container-addproduct button {
+        font-size: 14px;
+    }
+}

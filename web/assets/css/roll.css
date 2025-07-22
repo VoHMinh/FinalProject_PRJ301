@@ -1,0 +1,26 @@
+/* roll.css */
+
+/* Thanh menu bình thường */
+.zone-nav {
+    position: relative; /* Ban đầu ở trạng thái bình thường */
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-in-out; /* Hiệu ứng mượt */
+}
+
+/* Khi thanh menu trở nên sticky */
+.zone-nav.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    
+    /* Hiệu ứng trượt mượt hơn */
+    transform: translateY(0);
+}
+
+/* Tạo khoảng trống khi nav cố định để không che nội dung */
+.zone-nav-placeholder {
+    height: 60px; /* Đặt chiều cao bằng chiều cao của nav */
+    display: none; /* Ban đầu ẩn */
+}
