@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/prj301/Final_assignment/src/java/utils/HikariCPDataSource.java</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/dto/ProductDTO.java</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/dto/CartItemDTO.java</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/roll.css</file>
+            <file>file:/D:/prj301/Final_assignment/web/productDetail.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/register.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/dao/ProductDAO.java</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/dao/CartDAO.java</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/register.css</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/cart.css</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/product_detail.css</file>
+            <file>file:/D:/prj301/Final_assignment/web/verify.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/dto/InventoryDTO.java</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/utils/EmailUtils.java</file>
+            <file>file:/D:/prj301/Final_assignment/web/header.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/adminAddProduct.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/adminUpdateSelect.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/addproduct.css</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/js/roll.js</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/js/slideshow.js</file>
+            <file>file:/D:/prj301/Final_assignment/web/login.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/nbproject/build-impl.xml</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/dao/UserDAO.java</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/controller/MainController.java</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/style.css</file>
+            <file>file:/D:/prj301/Final_assignment/web/assets/css/products.css</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/utils/DBUtils.java</file>
+            <file>file:/D:/prj301/Final_assignment/web/footer.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/index.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/products.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/adminUpdateForm.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/web/cart.jsp</file>
+            <file>file:/D:/prj301/Final_assignment/src/java/utils/HashUtils.java</file>
+        </group>
+    </open-files>
+</project-private>
